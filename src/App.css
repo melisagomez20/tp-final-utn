@@ -1,0 +1,91 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Fondo claro */
+  color: #333; /* Texto oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #333; /* Títulos en color oscuro */
+}
+
+/* Estilo para los formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los inputs y selects */
+form input,
+form select,
+form button {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botón */
+button {
+  background-color: #c29e6b; /* Color dorado */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #b88c53; /* Un tono más oscuro de dorado */
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #2c2f33; /* Gris oscuro */
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Imagen de las habitaciones */
+.room-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Sección de las habitaciones */
+.rooms-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
